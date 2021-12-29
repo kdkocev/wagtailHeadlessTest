@@ -4,7 +4,7 @@ from wagtail.core.models import Page
 from wagtail.core.fields import StreamField
 from wagtail.core import blocks
 from wagtail.admin.edit_handlers import FieldPanel, StreamFieldPanel
-from wagtail.images.blocks import ImageChooserBlock
+from home.blocks import ImageChooserBlock
 from wagtail.api import APIField
 
 
